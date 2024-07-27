@@ -7,6 +7,10 @@ Auto accept League of legends Matches
 
 
 # How to use
+download gui.exe in dist folder then run it
+
+## or
+
 pyinstaller --onefile --windowed gui.py
 
 or run gui.py
