@@ -1,5 +1,5 @@
 # League-auto-accept
-Auto accept match when player is not on pc
+Auto accept League of legends Matches
 
 
 # Libraries:
