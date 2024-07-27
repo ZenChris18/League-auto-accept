@@ -7,4 +7,6 @@ Auto accept League of legends Matches
 
 
 # How to use
-Run main.py 
+pyinstaller --onefile --windowed gui.py
+
+or run gui.py
