@@ -1,3 +1,4 @@
+# lcu_connector.py
 from lcu_driver import Connector
 
 client = Connector()
@@ -21,4 +22,8 @@ async def auto_accept_match(connection, event):
     except Exception as e:
         print(f"Error handling match acceptance: {e}")
 
-client.start()
+def start_connector():
+    client.start()
+
+def stop_connector():
+    client.stop()
